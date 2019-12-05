@@ -1,0 +1,105 @@
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #fff;
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron-heading {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+
+  body {
+    
+    background-color: black;
+  }
+  body {
+    margin: 0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande";
+  }
+  
+  .topnav {
+    position: fixed;
+    overflow: hidden;
+    
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    position: fixed;
+    margin: 10px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    position: fixed;
+   
+    margin: 10px;
+  }
+  
+  .topnav a.active {
+    background-color: #00B5E3;
+    color: black;
+    position: fixed;
+    margin: 10px;
+  }
+  
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    margin: 10px;
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+  
+  /* Responsive navigation menu (for mobile devices) */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+    
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }
+
+
+ 

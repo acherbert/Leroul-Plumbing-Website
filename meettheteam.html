@@ -1,0 +1,332 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Meet the Team</title>
+
+   
+
+    <!-- Bootstrap core CSS -->
+<!-- <link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      body {
+  background-image: url("assets/random/bkg.jpg");
+  background-color: black;
+}
+/* START */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html { overflow-y: scroll; }
+body {
+  background: #f5f5f5;
+  font-family: "Trebuchet MS", Arial, Tahoma, sans-serif;
+  font-size: 62.5%; 
+  line-height: 1;
+  color: #343434;
+  /* padding: 55px 0; */
+}
+
+br { display: block; line-height: 1.6em; } 
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+
+input, textarea { 
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none; 
+}
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong, b { font-weight: bold; }
+em, i { font-style: italic; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+
+h1 {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 3.6em;
+  line-height: 1.4em;
+  margin-bottom: 10px;
+  color: #515151;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 3.0em;
+  line-height: 1.2em;
+  margin-bottom: 4px;
+  color: #515151;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 1.75em;
+  line-height: 1.2em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-bottom: 11px;
+  color: #515151;
+  font-weight: normal;
+}
+
+p {
+  display: block;
+  font-size: 1.6em;
+  line-height: 1.4em;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+a {
+  color: #739ecf;
+  text-decoration: none;
+  margin-left: 12px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/** page structure **/
+#w {
+  display: block;
+  margin: 0 auto;
+  width: 900px;
+  padding: 10px 25px;
+  background: #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+#teamcontent {
+  display: none;
+  margin-bottom: 15px;
+}
+
+
+/** team member list **/
+.team {
+  display: block;
+}
+
+.team li {
+  display: block;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.team li:hover {
+  cursor: pointer;
+}
+
+.team li.last { margin-right: 0; }
+
+.team .hcontent {
+  display: none;
+}
+
+
+
+/** hidden team content **/
+#teamcontent .bigimg {
+  display: block;
+  float: left;
+}
+
+#teamdetails {
+  display: block;
+  float: left;
+  width: 600px;
+  padding-left: 15px;
+}
+
+
+/** clearfix **/
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+ 
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+/* END */
+
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="dist/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+
+
+</header>
+
+<img src="assets/lpheader2.jpg" alt="header" height="600px">
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <img src="assets/lpicon.png" alt="header" height="60px" margin: 10px;> 
+  <a class="navbar-brand" href="index.html">Leroul Plumbing</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="services.html">Services</a>
+      </li> -->
+      <li class="nav-item">
+          <a class="nav-link" href="meettheteam.html">Meet The Team</a>
+        </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li> -->
+      <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="emergancy.html">Have an Emergancy?</a>
+          </li>
+    </ul>
+  </div>
+</nav>
+<br /><br />
+  <center>
+  <h4>
+  
+
+      Leroul Plumbing is owned by Zizak Leroul, a man with a passion and love for all work plumbing, heating, and cooling related. <br /> With 10+ years experiance
+      he and his team are master plumbers that get the job done. <br /> From residential to emergencies we got you covered. <br /> Professional, affordable and we always leave the seat down.
+      
+      
+      
+      </h4></center><br /><br />
+
+<div id="w">
+    <h1>Meet the Team</h1>
+    <p>Click any of the team member's photos to show more details.</p>
+    
+    <div id="teamcontent" class="clearfix">
+      <!-- <img src="https://i.imgur.com/TkSNOpF.jpg" class="bigimg" width="225" height="260"> -->
+      <div id="teamdetails">
+        <h2 id="bigname">Leroul Plumbing</h2>
+        <h3 id="bigjob">Title</h3>
+        <!-- <p id="bigdesc">A brief description.</p> -->
+        
+        <p><a href="index.html">View Services &rarr;</a></p>
+      </div>
+    </div>
+    
+    <ul class="team clearfix">
+      <li>
+        <img src="assets/worker1.jpg" alt="Zizak Leroul" width="130" height="150" class="profilepic">
+        <span class="hcontent job">Owner and Master plumber of more than 10 years.</span>
+        <span class="hcontent desc">Zizak Leroul is the owner of Leroul Plumbing and a master plumber for more than 10 years.</span>
+      </li>
+      
+      <li>
+        <img src="assets/worker7.jpg" alt="Ali Leroul" width="130" height="150" class="profilepic">
+        <span class="hcontent job">CEO and Master plumber of 6 years.</span>
+        <!-- <span class="hcontent desc">Master plumber of 6 years.</span> -->
+      </li>
+      
+      <li>
+        <img src="assets/worker3.jpg" alt="Anothony Tooya" width="130" height="150" class="profilepic">
+        <span class="hcontent job">Master Plumber 6 years.</span>
+        <!-- <p class="hcontent desc">Master plumber of 6 years</p> -->
+      </li>
+      
+      <li>
+        <img src="assets/worker4.jpg" alt="Burt Chelmfield" width="130" height="150" class="profilepic">
+        <span class="hcontent job">Master Plumber 8 years.</span>
+        <!-- <span class="hcontent desc">Still awaiting content.</span> -->
+      </li>
+      <li>
+          <img src="assets/worker5.jpg" alt="Chuck Fields" width="130" height="150" class="profilepic">
+          <span class="hcontent job">Master Plumber 6 years.</span>
+          <!-- <span class="hcontent desc">Still awaiting content.</span> -->
+        </li>
+        <li>
+            <img src="assets/worker6.jpg" alt=" Ross Finley" width="130" height="150" class="profilepic">
+            <span class="hcontent job">Master Plumber 3 years.</span>
+            <!-- <span class="hcontent desc">Still awaiting content.</span> -->
+          </li>
+          <li>
+              <img src="assets/worker2.jpg" alt="Michael West" width="130" height="150" class="profilepic">
+              <span class="hcontent job">Master Plumber 8 years.</span>
+              <!-- <span class="hcontent desc">Still awaiting content.</span> -->
+            </li>
+    </ul>
+  </div>
+
+
+<footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+      <a href="#">Back to top</a>
+    </p>
+  </div>
+</footer>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+<script src="./js/team.js"></script>
+      </body>
+</html>
